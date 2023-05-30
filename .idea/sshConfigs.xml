@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="barretts.ecs.vuw.ac.nz" id="a06c4f5a-1fad-4aa1-9b08-a2baebbab313" port="22" nameFormat="DESCRIPTIVE" username="burkehami" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
