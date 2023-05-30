@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lenna.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/pi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/war_and_peace.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment4_Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMSearchTest_Handout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuffmanCoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuffmanTest_Handout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KMPSearchTest_Handout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LempelZiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LempelZivTest_Handout.java" afterDir="false" />
+    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HuffmanCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanCoding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +24,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "settings.editor.selected.configurable": "rsyncConfigurable"
   }
@@ -60,8 +46,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685436891958</updated>
-      <workItem from="1685436893194" duration="1737000" />
+      <workItem from="1685436893194" duration="1860000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1685441069403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441069403</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1685441087134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441087134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +80,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

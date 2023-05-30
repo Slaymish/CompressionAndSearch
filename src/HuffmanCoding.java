@@ -30,6 +30,7 @@ public class HuffmanCoding {
 	 */
 	public String encode(String text) {
 		// TODO fill this in.
+		// blehh
 		return "";
 	}
 
