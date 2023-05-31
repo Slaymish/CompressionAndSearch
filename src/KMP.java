@@ -21,25 +21,52 @@ public class KMP {
 
 		Arrays.stream(matchTable).forEach(System.out::println);
 
+
+		/*
+		input: string S[0..m-1], text T[0 .. n-1], partial match table M[0 .. m-1]
+		output: the position in T at which S is found, or -1 if not present
+
+		// declare vars
+		k = 0; // start of current match in T
+		i = 0; // pos of current character in S
+
+		// loop
+		while ((k+i)<n){
+			if S[i] = T[k+i] then // match
+				i = i + 1
+				if i=m then return k // found S
+			else if M[i] = -1 then // mismatch, no self overlap
+				k = k + i + 1
+				i = 0
+			else // mismatch, with self overlap
+				k = k + i - M[i] // match pos jumps forward
+				i = M[i]
+		}
+
+		return -1 // failed to find S
+		 */
+
 		// Declare vars
 		int k = 0;
 		int i = 0;
-
-		while ((k + i) < text.length()) {
+		int n = text.length() - 1;
+		System.out.println("-----------");
+		while ((k + i) < n) {
 			if (pattern.charAt(i) == text.charAt(k + 1)) { // match
 				i++;
 				if (i == matchTable.length) {
+					System.out.println("found k: " + k);
 					return k;
-				} // found S
-				else if (matchTable[i] == -1) {
-					k += i + 1;
-					i = 0;
-				} else {
-					k = k + i - matchTable[i];
-					i = matchTable[i];
 				}
-
+			}// found S
+			else if (matchTable[i] == -1) {
+				k += i + 1;
+				i = 0;
+			} else {
+				k = (k + i) - matchTable[i];
+				i = matchTable[i];
 			}
+
 		}
 
 		return -1;
