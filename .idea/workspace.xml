@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="first commit">
+    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="implemented KMP (looping continuously)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KMP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685436891958</updated>
       <workItem from="1685436893194" duration="2164000" />
-      <workItem from="1685441475429" duration="4962000" />
+      <workItem from="1685441475429" duration="5127000" />
+      <workItem from="1685499119061" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685441069403</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685441513665</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented KMP (looping continuously)">
+      <created>1685447576125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685447576125</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="implemented KMP (looping continuously)" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented KMP (looping continuously)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
