@@ -1,6 +1,6 @@
 package test;
 
-import main.KMP;
+import main.algorithms.KMP;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

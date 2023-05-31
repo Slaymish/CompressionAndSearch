@@ -1,5 +1,7 @@
 package main;
 
+import main.algorithms.KMP;
+
 public class KMPSearchTest_Handout {
     public static void main(String[] args) {
         // Test cases

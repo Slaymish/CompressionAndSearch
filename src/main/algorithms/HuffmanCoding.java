@@ -1,4 +1,4 @@
-package main; /**
+package main.algorithms; /**
  * A new instance of java.assignment.HuffmanCoding is created for every run. The constructor is
  * passed the full text to be encoded or decoded, so this is a good place to
  * construct the tree. You should store this tree in a field and then use it in
@@ -8,7 +8,7 @@ package main; /**
 import java.util.*;
 
 public class HuffmanCoding {
-    /**
+	/**
      * This would be a good place to compute and store the tree.
 	 */
 	public HuffmanCoding(String text) {

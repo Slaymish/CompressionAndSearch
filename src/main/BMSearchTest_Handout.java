@@ -1,5 +1,7 @@
 package main;
 
+import main.algorithms.BoyerMoore;
+
 public class BMSearchTest_Handout {
     public static void main(String[] args) {
         // Test cases

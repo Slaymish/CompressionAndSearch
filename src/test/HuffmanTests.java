@@ -1,6 +1,6 @@
 package test;
 
-import main.HuffmanCoding;
+import main.algorithms.HuffmanCoding;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

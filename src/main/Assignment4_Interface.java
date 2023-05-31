@@ -1,5 +1,9 @@
 package main;
 
+import main.algorithms.HuffmanCoding;
+import main.algorithms.KMP;
+import main.algorithms.LempelZiv;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;

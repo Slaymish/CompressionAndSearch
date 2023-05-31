@@ -1,5 +1,7 @@
 package main;
 
+import main.algorithms.LempelZiv;
+
 public class LempelZivTest_Handout {
     public static void main(String[] args) {
         // Test cases

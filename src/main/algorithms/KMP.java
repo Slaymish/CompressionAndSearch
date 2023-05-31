@@ -1,4 +1,4 @@
-package main;
+package main.algorithms;
 
 /**
  * A new java.assignment.KMP instance is created for every substring search performed. Both the

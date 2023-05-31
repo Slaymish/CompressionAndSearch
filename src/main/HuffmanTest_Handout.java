@@ -1,5 +1,7 @@
 package main;
 
+import main.algorithms.HuffmanCoding;
+
 public class HuffmanTest_Handout {
     public static void main(String[] args) {
         String text = "AABBCCCCDD\n";
