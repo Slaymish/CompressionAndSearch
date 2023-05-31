@@ -1,4 +1,4 @@
-package org.assignment;
+package main;
 
 import java.util.*;
 

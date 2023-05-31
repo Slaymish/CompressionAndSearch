@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="implemented KMP (looping continuously)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/Tests/KMPTests.java" afterDir="false" />
+    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="added KPM tests">
+      <change afterPath="$PROJECT_DIR$/src/test/BMTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HuffmanTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/LempelZivTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment4_Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/Assignment4_Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BMSearchTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/BMSearchTest_Handout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoyerMoore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/BoyerMoore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HuffmanCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/HuffmanCoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HuffmanTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/HuffmanTest_Handout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KMPSearchTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/KMPSearchTest_Handout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LempelZiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/LempelZiv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LempelZivTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/assignment/LempelZivTest_Handout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Tests/KMPTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/KMPTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/Assignment4_Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Assignment4_Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/BMSearchTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BMSearchTest_Handout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/BoyerMoore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BoyerMoore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/HuffmanCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HuffmanCoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/HuffmanTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HuffmanTest_Handout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/KMPSearchTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KMPSearchTest_Handout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/LempelZiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LempelZiv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/assignment/LempelZivTest_Handout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LempelZivTest_Handout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +68,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.test in Assignment4">
     <configuration name="Assignment 4" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="java.assignment.Assignment4_Interface" />
+      <option name="MAIN_CLASS_NAME" value="main.Assignment4_Interface" />
       <module name="Assignment4" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -85,75 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoyerMoore Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="java.assignment.BMSearchTest_Handout" />
-      <module name="Assignment4" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Huffman Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="java.assignment.HuffmanTest_Handout" />
-      <module name="Assignment4" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KMP Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="java.assignment.KMPSearchTest_Handout" />
-      <module name="Assignment4" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LempelZiv Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="java.assignment.LempelZivTest_Handout" />
-      <module name="Assignment4" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KMPTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KMPTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Assignment4" />
       <extension name="coverage">
         <pattern>
@@ -161,24 +94,46 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java.Tests" />
-      <option name="MAIN_CLASS_NAME" value="java.Testing.KMPTests" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.KMPTests" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in Assignment4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Assignment 4" />
-      <item itemvalue="Application.BoyerMoore Test" />
-      <item itemvalue="Application.Huffman Test" />
-      <item itemvalue="Application.KMP Test" />
-      <item itemvalue="Application.LempelZiv Test" />
       <item itemvalue="JUnit.KMPTests" />
+      <item itemvalue="JUnit.test in Assignment4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KMPTests" />
+        <item itemvalue="JUnit.test in Assignment4" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +147,7 @@
       <updated>1685436891958</updated>
       <workItem from="1685436893194" duration="2164000" />
       <workItem from="1685441475429" duration="5127000" />
-      <workItem from="1685499119061" duration="4158000" />
+      <workItem from="1685499119061" duration="5106000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685441069403</created>
@@ -250,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685501027461</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added KPM tests">
+      <created>1685505691115</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685505691115</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="implemented KMP (looping continuously)" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented KMP (looping continuously)" />
+    <MESSAGE value="added KPM tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added KPM tests" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

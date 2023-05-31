@@ -1,4 +1,4 @@
-package org.assignment;
+package main;
 
 public class KMPSearchTest_Handout {
     public static void main(String[] args) {
