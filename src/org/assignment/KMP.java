@@ -1,7 +1,7 @@
-import java.util.Arrays;
+package org.assignment;
 
 /**
- * A new KMP instance is created for every substring search performed. Both the
+ * A new java.assignment.KMP instance is created for every substring search performed. Both the
  * pattern and the text are passed to the constructor and the search method. You
  * could, for example, use the constructor to create the match table and the
  * search method to perform the search itself.
@@ -10,7 +10,7 @@ public class KMP {
 
 
 	/**
-	 * Perform KMP substring search on the given text with the given pattern.
+	 * Perform java.assignment.KMP substring search on the given text with the given pattern.
 	 * <p>
 	 * This should return the starting index of the first substring match if it
 	 * exists, or -1 if it doesn't.
@@ -19,8 +19,7 @@ public class KMP {
 		// TODO fill this in.
 		int[] matchTable = buildMatchTable(pattern);
 
-		Arrays.stream(matchTable).forEach(System.out::println);
-
+		printMatchTable(matchTable);
 
 		/*
 		input: string S[0..m-1], text T[0 .. n-1], partial match table M[0 .. m-1]
@@ -50,7 +49,6 @@ public class KMP {
 		int k = 0;
 		int i = 0;
 		int n = text.length() - 1;
-		System.out.println("-----------");
 		while ((k + i) < n) {
 			if (pattern.charAt(i) == text.charAt(k + 1)) { // match
 				i++;
@@ -94,5 +92,16 @@ public class KMP {
 		}
 
 		return matchTable;
+	}
+
+	private static void printMatchTable(int[] matchTable) {
+		System.out.println("Match table:");
+		for (int i = 0; i < matchTable.length; i++) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+		for (int i = 0; i < matchTable.length; i++) {
+			System.out.print(matchTable[i] + " ");
+		}
 	}
 }

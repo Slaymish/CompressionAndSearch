@@ -1,3 +1,4 @@
+package org.assignment;
 
 public class BMSearchTest_Handout {
     public static void main(String[] args) {

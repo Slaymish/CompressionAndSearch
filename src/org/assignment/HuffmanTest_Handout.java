@@ -1,3 +1,5 @@
+package org.assignment;
+
 public class HuffmanTest_Handout {
     public static void main(String[] args) {
         String text = "AABBCCCCDD\n";
@@ -6,7 +8,7 @@ public class HuffmanTest_Handout {
         //Just a possible encoded sequence. It is not the only correct answer!
         String expectedDecodedText = "AABBCCCCDD\n";
 
-        // Create a new instance of HuffmanCoding
+        // Create a new instance of java.assignment.HuffmanCoding
         HuffmanCoding huffman = new HuffmanCoding(text);
 
         // Encode the text

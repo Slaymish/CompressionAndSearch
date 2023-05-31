@@ -1,5 +1,5 @@
-/**
- * A new instance of HuffmanCoding is created for every run. The constructor is
+package org.assignment; /**
+ * A new instance of java.assignment.HuffmanCoding is created for every run. The constructor is
  * passed the full text to be encoded or decoded, so this is a good place to
  * construct the tree. You should store this tree in a field and then use it in
  * the encode and decode methods.
@@ -8,8 +8,8 @@
 import java.util.*;
 
 public class HuffmanCoding {
-	/**
-	 * This would be a good place to compute and store the tree.
+    /**
+     * This would be a good place to compute and store the tree.
 	 */
 	public HuffmanCoding(String text) {
 		// TODO fill this in.

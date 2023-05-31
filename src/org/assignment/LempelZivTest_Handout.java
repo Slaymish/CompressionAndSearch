@@ -1,3 +1,5 @@
+package org.assignment;
+
 public class LempelZivTest_Handout {
     public static void main(String[] args) {
         // Test cases
