@@ -16,59 +16,34 @@ public class KMP {
 	 * exists, or -1 if it doesn't.
 	 */
 	public static int search(String pattern, String text) {
-		// TODO fill this in.
+		if (pattern.equals("")) {
+            return -1;
+        }
 		int[] matchTable = buildMatchTable(pattern);
-
 		printMatchTable(matchTable);
-
-		/*
-		input: string S[0..m-1], text T[0 .. n-1], partial match table M[0 .. m-1]
-		output: the position in T at which S is found, or -1 if not present
-
-		// declare vars
-		k = 0; // start of current match in T
-		i = 0; // pos of current character in S
-
-		// loop
-		while ((k+i)<n){
-			if S[i] = T[k+i] then // match
-				i = i + 1
-				if i=m then return k // found S
-			else if M[i] = -1 then // mismatch, no self overlap
-				k = k + i + 1
-				i = 0
-			else // mismatch, with self overlap
-				k = k + i - M[i] // match pos jumps forward
-				i = M[i]
-		}
-
-		return -1 // failed to find S
-		 */
 
 		// Declare vars
 		int k = 0;
-		int i = 0;
-		int n = text.length() - 1;
+        int i = 0;
+        int n = text.length();
 		while ((k + i) < n) {
-			if (pattern.charAt(i) == text.charAt(k + 1)) { // match
-				i++;
-				if (i == matchTable.length) {
-					System.out.println("found k: " + k);
-					return k;
-				}
-			}// found S
-			else if (matchTable[i] == -1) {
-				k += i + 1;
-				i = 0;
-			} else {
-				k = (k + i) - matchTable[i];
-				i = matchTable[i];
-			}
+            if (pattern.charAt(i) == text.charAt(k + i)) { // match
+                i++;
+                if (i == pattern.length()) {
+                    System.out.println("found k: " + k);
+                    return k; // found pattern
+                }
+            } else if (matchTable[i] == -1) { // mismatch, no self overlap
+                k += i + 1;
+                i = 0;
+            } else { // mismatch, with self overlap
+                k = (k + i) - matchTable[i];
+                i = matchTable[i];
+            }
+        }
+        return -1; // pattern not found in text
+    }
 
-		}
-
-		return -1;
-	}
 
 	private static int[] buildMatchTable(String pattern) {
 		// Initalise
@@ -103,5 +78,6 @@ public class KMP {
 		for (int i = 0; i < matchTable.length; i++) {
 			System.out.print(matchTable[i] + " ");
 		}
+        System.out.println();
 	}
 }

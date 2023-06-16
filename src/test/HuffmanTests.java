@@ -41,4 +41,11 @@ class HuffmanTests {
         String decodedText = huffman.decode(encodedText);
         assertEquals(expectedDecodedText, decodedText, "Decoding result is incorrect.");
     }
+
+    @Test
+    void testEncodeDecode() {
+        String encodedText = huffman.encode(text);
+        String decodedText = huffman.decode(encodedText);
+        assertEquals(text, decodedText, "Encoding and decoding results are incorrect.");
+    }
 }
