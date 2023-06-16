@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="reformatted">
+    <list default="true" id="d148de85-8448-4f35-8600-0ea0c7416f3e" name="Changes" comment="All algorithms implements, tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/algorithms/BoyerMoore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithms/BoyerMoore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/algorithms/HuffmanCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithms/HuffmanCoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/algorithms/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithms/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/algorithms/LempelZiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithms/LempelZiv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/HuffmanTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HuffmanTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LempelZivTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LempelZivTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +142,7 @@
       <workItem from="1686277073694" duration="83000" />
       <workItem from="1686888661540" duration="7571000" />
       <workItem from="1686954751754" duration="601000" />
-      <workItem from="1686955361969" duration="3332000" />
+      <workItem from="1686955361969" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1685441069403</created>
@@ -234,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685506734338</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="All algorithms implements, tests passing">
+      <created>1686958729618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686958729618</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +258,8 @@
     <MESSAGE value="added KPM tests" />
     <MESSAGE value="added tests for rest of algorithms" />
     <MESSAGE value="reformatted" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformatted" />
+    <MESSAGE value="All algorithms implements, tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="All algorithms implements, tests passing" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
